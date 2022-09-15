@@ -1,0 +1,81 @@
+body {
+    background-image: url("2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    
+  }
+#navbar{
+  flex-direction: column;
+  font-size: 25px;
+  color:white;
+  width: 100vw;
+  font-family: 'Ubuntu Mono', monospace;
+  
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+  display: flex;
+  justify-content: right;
+  border-radius: 25px;
+}
+ul li{
+  list-style: none;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+ul li a{
+  padding: 1px;
+  color:white;
+  text-decoration: none;
+
+}
+ul li a:hover{
+  background-color:red;
+  border-radius: 10px;
+}
+
+
+.sec{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  color:white;
+  transform: translate(-50%,-50%);
+  max-width: 500px;
+}
+.sec h1{
+  font-size: 40px;
+}
+
+.book{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  color:white;
+  transform: translate(-50%,-50%);
+  max-width: 500px;
+}
+.book a{
+ font-size: 30px;
+  color: white;
+  padding: 20px,20px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.book a:hover{
+  background: red;
+  border-radius: 20px;
+ color :black;
+}
+
